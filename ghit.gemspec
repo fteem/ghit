@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["ileeftimov@gmail.com"]
   spec.summary       = %q{More git commands for your enjoyment.}
   spec.description   = %q{Ghit is a gem that adds more git commands for a better command line Git(hub) experience.}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/fteem/ghit"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
