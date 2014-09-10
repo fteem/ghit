@@ -6,31 +6,12 @@ Ghit
 Ghit is a collection of custom ```git``` commands that allows the user to easily navigate to
 certain Github pages of the repo (if it exists). Also, it contains semantic git messages inspired by Sparkbox's awesome article on [semantic commit messages](http://seesparkbox.com/foundry/semantic_commit_messages).
 
+
 ## Installation
-
-Add this line to your application's Gemfile:
-
-    gem 'ghit'
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
 
     $ gem install ghit
 
-## Installation:
-
-1. Clone this repo, prefferably in your $HOME directory.
-``` git clone https://github.com/fteem/github-on-git ~/.github-on-git ```
-
-2. Add the folder to your $PATH.
-  * if using Bash, open ```~/.bashrc``` with your favourite editor and add this line: <br/> ``` export PATH=$PATH:$HOME/.github-on-git ```
-  * if using Zsh, open ```~/.zshrc``` with your favourite editor and add this line: <br/>  ``` export PATH=$PATH:$HOME/.github-on-git ```
-
-3. Save the file and source the changes in bashrc/zshrc: ```source ~/.bashrc``` or ```source ~/.zshrc```
-4. Read below.
+That's it!
 
 ## Usage
 
