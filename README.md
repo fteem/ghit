@@ -1,6 +1,10 @@
-# Ghit
+Ghit
+=============
 
-TODO: Write a gem description
+## What is this?
+
+Ghit is a collection of custom ```git``` commands that allows the user to easily navigate to
+certain Github pages of the repo (if it exists). Also, it contains semantic git messages inspired by Sparkbox's awesome article on [semantic commit messages](http://seesparkbox.com/foundry/semantic_commit_messages).
 
 ## Installation
 
@@ -16,9 +20,42 @@ Or install it yourself as:
 
     $ gem install ghit
 
+## Installation:
+
+1. Clone this repo, prefferably in your $HOME directory.
+``` git clone https://github.com/fteem/github-on-git ~/.github-on-git ```
+
+2. Add the folder to your $PATH.
+  * if using Bash, open ```~/.bashrc``` with your favourite editor and add this line: <br/> ``` export PATH=$PATH:$HOME/.github-on-git ```
+  * if using Zsh, open ```~/.zshrc``` with your favourite editor and add this line: <br/>  ``` export PATH=$PATH:$HOME/.github-on-git ```
+
+3. Save the file and source the changes in bashrc/zshrc: ```source ~/.bashrc``` or ```source ~/.zshrc```
+4. Read below.
+
 ## Usage
 
-TODO: Write usage instructions here
+There are 11 (woot!) new ```git``` commands now.
+
+* ```git wiki```    -> Opens the Github wiki page of the repo in browser.
+* ```git pulls```   -> Opens the Github pull requests page of the repo in broswer.
+* ```git issues```  -> Opens the Github issues page of the repo in broswer.
+* ```git open```    -> Opens the Github repo page in browser.
+* ```git feat "commit-message-here"``` -> ```git commit -m 'feat: commit-message-here'```
+* ```git docs "commit-message-here"``` -> ```git commit -m 'docs: commit-message-here'```
+* ```git chore "commit-message-here"``` -> ```git commit -m 'chore: commit-message-here'```
+* ```git fix "commit-message-here"``` -> ```git commit -m 'fix: commit-message-here'```
+* ```git refactor "commit-message-here"``` -> ```git commit -m 'refactor: commit-message-here'```
+* ```git style "commit-message-here"``` -> ```git commit -m 'style: commit-message-here'```
+* ```git test "commit-message-here"``` -> ```git commit -m 'test: commit-message-here'```
+
+If you would still like to use your text editor for your commit messages
+you can omit the message, and do your commit message in your editor.
+
+* ```git feat``` -> ```git commit -m 'feat: ' -e```
+
+
+## Worth sayin'
+Still has some rough edges. Needs tests, refactoring and various improvements.
 
 ## Contributing
 
