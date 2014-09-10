@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Ghit::VERSION
   spec.authors       = ["Ile Eftimov"]
   spec.email         = ["ileeftimov@gmail.com"]
-  spec.summary       = %q{Ghit}
-  spec.description   = %q{}
+  spec.summary       = %q{More git commands for your enjoyment.}
+  spec.description   = %q{Ghit is a gem that adds more git commands for a better command line Git(hub) experience.}
   spec.homepage      = ""
   spec.license       = "MIT"
 
@@ -19,6 +19,6 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_development_dependency "bundler", "~> 1.5"
-  spec.add_development_dependency "rake"
-  spec.add_development_dependency 'rspec'
+  spec.add_development_dependency "rake", "~> 10.3.2"
+  spec.add_development_dependency 'rspec', "~> 3.1.0"
 end
