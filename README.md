@@ -17,10 +17,14 @@ That's it!
 
 There are 11 (woot!) new ```git``` commands now.
 
+The following commands allow you to easily navigate to repo's Github (sub)page.
+
 * ```git wiki```    -> Opens the Github wiki page of the repo in browser.
 * ```git pulls```   -> Opens the Github pull requests page of the repo in broswer.
 * ```git issues```  -> Opens the Github issues page of the repo in broswer.
 * ```git open```    -> Opens the Github repo page in browser.
+
+The following commands can be used to semantically improve your commit messages:
 * ```git feat "commit-message-here"``` -> ```git commit -m 'feat: commit-message-here'```
 * ```git docs "commit-message-here"``` -> ```git commit -m 'docs: commit-message-here'```
 * ```git chore "commit-message-here"``` -> ```git commit -m 'chore: commit-message-here'```
