@@ -9,5 +9,5 @@ module Ghit
   autoload :RepoLocator,     'ghit/repo_locator'
   autoload :Errors,          'ghit/errors'
   autoload :RemoteExtracter, 'ghit/remote_extracter'
-  autoload :RepoStatistics,  'ghit/repo_statistics'
+  autoload :Stats,           'ghit/stats'
 end
