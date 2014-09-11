@@ -4,8 +4,7 @@ Ghit
 ## What is this?
 
 Ghit is a collection of custom ```git``` commands that allows the user to easily navigate to
-certain Github pages of the repo (if it exists). Also, it contains semantic git messages inspired by Sparkbox's awesome article on [semantic commit messages](http://seesparkbox.com/foundry/semantic_commit_messages).
-
+certain Github pages of the repo (if it exists).
 
 ## Installation
 
@@ -15,7 +14,7 @@ That's it!
 
 ## Usage
 
-There are 11 (woot!) new ```git``` commands now.
+There are 4 new ```git``` commands now.
 
 The following commands allow you to easily navigate to repo's Github (sub)page.
 
@@ -24,28 +23,17 @@ The following commands allow you to easily navigate to repo's Github (sub)page.
 * ```git issues```  -> Opens the Github issues page of the repo in broswer.
 * ```git open```    -> Opens the Github repo page in browser.
 
-The following commands can be used to semantically improve your commit messages:
-* ```git feat "commit-message-here"``` -> ```git commit -m 'feat: commit-message-here'```
-* ```git docs "commit-message-here"``` -> ```git commit -m 'docs: commit-message-here'```
-* ```git chore "commit-message-here"``` -> ```git commit -m 'chore: commit-message-here'```
-* ```git fix "commit-message-here"``` -> ```git commit -m 'fix: commit-message-here'```
-* ```git refactor "commit-message-here"``` -> ```git commit -m 'refactor: commit-message-here'```
-* ```git style "commit-message-here"``` -> ```git commit -m 'style: commit-message-here'```
-* ```git test "commit-message-here"``` -> ```git commit -m 'test: commit-message-here'```
-
-If you would still like to use your text editor for your commit messages
-you can omit the message, and do your commit message in your editor.
-
-* ```git feat``` -> ```git commit -m 'feat: ' -e```
-
-
 ## Worth sayin'
-Still has some rough edges. Needs tests, refactoring and various improvements.
+* Still has some rough edges. Needs tests, refactoring and various improvements.
+
+## Git semantic commits
+If you'd like to improve your commit messages composition, take a look at [git-semantic-commits](https://github.com/fteem/git-semantic-commits). This can work nicely with the functionality that this gem provides.
 
 ## Contributing
 
-1. Fork it ( http://github.com/<my-github-username>/ghit/fork )
+1. Fork it ( http://github.com/fteem/ghit/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
+
