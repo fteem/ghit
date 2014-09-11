@@ -8,8 +8,8 @@ module Ghit
     end
 
     def initialize(page = nil)
-      @remote = Ghit::RemoteExtracter.extract!
       @page   = page
+      @globals = Ghit::Globals.new
     end
 
     def open
@@ -19,16 +19,9 @@ module Ghit
     private
 
     def build_url
-      if is_http_remote?
-        HttpRemoteUrlBuilder.new(@remote, @page).build
-      else
-        SshRemoteUrlBuilder.new(@remote, @page).build 
-      end
+      "#{@globals.url}/#{@page}"
     end
 
-    def is_http_remote?
-      @remote =~ /https?/
-    end
   end
 
 end
