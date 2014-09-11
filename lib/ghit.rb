@@ -1,5 +1,6 @@
 require "ghit/version"
 require 'github_api'
+require 'rainbow'
 
 module Ghit
   autoload :Globals,         'ghit/globals'
