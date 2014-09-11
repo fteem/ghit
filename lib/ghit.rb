@@ -7,4 +7,8 @@ module Ghit
   autoload :RepoLocator,     'ghit/repo_locator.rb'
   autoload :Errors,          'ghit/errors.rb'
   autoload :RemoteExtracter, 'ghit/remote_extracter.rb'
+
+  AUTHOR = Ghit::Globals.new.author
+  REPOSITORY = Ghit::Globals.new.repository
+  URL = Ghit::Globals.new.url
 end
