@@ -14,6 +14,10 @@ certain Github pages of the repo (if it exists), or get some repo statistics in 
 
 That's it!
 
+If you are using Ubuntu/Debian-based OS, ```xdg-utils``` is a dependency. You can install it using:
+
+```sudo apt-get xdg-utils```
+
 ## Usage
 
 There are 7 new ```git``` commands now.
@@ -43,3 +47,4 @@ If you'd like to improve your commit messages composition, take a look at [git-s
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
 
+Made by [@fteem](http://github.com/fteem). Thanks to [@ristovskiv](http://github.com/ristovskiv) for helping.
