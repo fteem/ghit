@@ -1,6 +1,7 @@
 Ghit
 =============
 [![Build Status](https://travis-ci.org/fteem/ghit.svg?branch=master)](https://travis-ci.org/fteem/ghit)
+[![Code Climate](https://codeclimate.com/github/fteem/ghit/badges/gpa.svg)](https://codeclimate.com/github/fteem/ghit)
 
 ## What is this?
 
