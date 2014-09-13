@@ -28,6 +28,7 @@ The following commands allow you to easily navigate to repo's Github (sub)page.
 
 ## Worth sayin'
 * Still has some rough edges. Needs tests, refactoring and various improvements.
+* Since repo statistics data is cached, there's a possibilty that sometimes the commands might not return a result. If that happens, re-run the command in 10 seconds. That's plenty of time for Github to compute and cache the new statistics. Future releases will handle this more gracefully.
 
 ## Git semantic commits
 If you'd like to improve your commit messages composition, take a look at [git-semantic-commits](https://github.com/fteem/git-semantic-commits). This can work nicely with the functionality that this gem provides.
